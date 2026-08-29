@@ -1,25 +1,25 @@
 class Craftbag < Formula
   desc "Discover and load Agent Skills for CLI and MCP hosts"
   homepage "https://github.com/craftbag/craftbag"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0 OR MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/craftbag/craftbag/releases/download/v0.1.0/craftbag-aarch64-apple-darwin.tar.xz"
-      sha256 "9420e8beee654d3837dd24c2ce485932f707f66f7db4205a36cfd0672eb9a55b"
+      url "https://github.com/craftbag/craftbag/releases/download/v0.1.1/craftbag-aarch64-apple-darwin.tar.xz"
+      sha256 "3e24621c3718386ce8318a9f6679250b503a9b7505fbfca56ec8fdffcb287f6c"
     end
     on_intel do
-      url "https://github.com/craftbag/craftbag/releases/download/v0.1.0/craftbag-x86_64-apple-darwin.tar.xz"
-      sha256 "9638982d61d5d1f8322f22f125d11a87b518d9fe11805356d8e6a1fadce5a66d"
+      url "https://github.com/craftbag/craftbag/releases/download/v0.1.1/craftbag-x86_64-apple-darwin.tar.xz"
+      sha256 "fe89a9ac3c69f8b5fcdbaecf291a35d37cfa48f54d60456b37077a1a55058982"
     end
   end
 
   on_linux do
 
     on_intel do
-      url "https://github.com/craftbag/craftbag/releases/download/v0.1.0/craftbag-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "43c509506874f22800b57e40b216dda8ef5a47033f79c503ebad581c8f643316"
+      url "https://github.com/craftbag/craftbag/releases/download/v0.1.1/craftbag-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d190f684e8f2db4ea3e05750bd0b5b841f2eec1ec3b1ec1a2dc86a39269fb974"
     end
   end
 
